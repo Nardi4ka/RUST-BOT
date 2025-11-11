@@ -81,4 +81,5 @@ async def connect(ctx):
 # === ЗАПУСК ===
 if __name__ == "__main__":
     print("🚀 Запуск бота с портом 35210...")
-    bot.run(TOKEN)
+
+    bot.run('TOKEN.env')
