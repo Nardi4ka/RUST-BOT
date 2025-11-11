@@ -3,7 +3,7 @@ from disnake.ext import commands, tasks
 import a2s
 
 # === КОНФИГУРАЦИЯ ===
-BOT_TOKEN = "ТВОЙ_ТОКЕН_БОТА"
+BOT_TOKEN = "BOT_TOKEN"
 RUST_SERVER = ("185.189.255.113", 35210)  # ТОТ САМЫЙ ПОРТ!
 
 intents = disnake.Intents.default()
@@ -82,4 +82,5 @@ async def connect(ctx):
 if __name__ == "__main__":
     print("🚀 Запуск бота с портом 35210...")
 
-    bot.run('TOKEN.env')
+    bot.run(BOT_TOKEN)
+
