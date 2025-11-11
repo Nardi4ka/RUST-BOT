@@ -1,0 +1,2 @@
+disnake
+python-a2s
